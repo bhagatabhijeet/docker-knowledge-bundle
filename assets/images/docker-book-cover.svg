@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Docker, a friendly field guide</title>
+  <desc id="description">A colorful illustrated book cover with stacked shipping containers and an open book, inviting readers to learn Docker at their own pace.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff735e"/>
+      <stop offset="1" stop-color="#f4a340"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#126c73"/>
+      <stop offset="1" stop-color="#123c52"/>
+    </linearGradient>
+    <pattern id="ribs" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M10 0v20" stroke="#fff" stroke-opacity=".24" stroke-width="3"/>
+    </pattern>
+    <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#142d3c" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="#fff8e9"/>
+  <rect x="28" y="28" width="1144" height="704" rx="18" fill="url(#sky)"/>
+  <circle cx="1050" cy="130" r="64" fill="#ffd166"/>
+  <path d="M28 460q130-55 260 0t260 0 260 0 260 0 104 0v272H28z" fill="url(#water)"/>
+  <path d="M28 510q130-48 260 0t260 0 260 0 260 0 104 0" fill="none" stroke="#7edbd0" stroke-opacity=".55" stroke-width="6"/>
+  <g fill="#fff8e9" opacity=".92">
+    <path d="M82 112h20v20H82zM110 112h20v20h-20zM138 112h20v20h-20zM82 140h20v20H82zM110 140h20v20h-20zM138 140h20v20h-20z"/>
+    <path d="M168 215h14v14h-14zM190 215h14v14h-14zM168 237h14v14h-14zM190 237h14v14h-14z" opacity=".75"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#17364a">
+    <text x="86" y="255" font-size="25" font-weight="bold" letter-spacing="3">A FREE, FRIENDLY FIELD GUIDE</text>
+    <text x="78" y="362" font-size="98" font-weight="bold">Docker</text>
+    <text x="84" y="414" font-size="25" font-family="Arial, sans-serif">Containers, images, and the ideas that</text>
+    <text x="84" y="449" font-size="25" font-family="Arial, sans-serif">make them click. Read at your own pace.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <g transform="translate(620 222)">
+      <rect width="214" height="112" rx="8" fill="#f5c451"/>
+      <rect width="214" height="112" rx="8" fill="url(#ribs)"/>
+      <path d="M18 18h40v28H18zM74 18h40v28H74zM130 18h40v28h-40z" fill="#fff8e9" opacity=".92"/>
+      <text x="20" y="88" fill="#17364a" font-family="Arial, sans-serif" font-size="17" font-weight="bold">YOUR FIRST IMAGE</text>
+    </g>
+    <g transform="translate(850 274)">
+      <rect width="230" height="118" rx="8" fill="#3f9a8f"/>
+      <rect width="230" height="118" rx="8" fill="url(#ribs)"/>
+      <path d="M20 20h42v30H20zM78 20h42v30H78zM136 20h42v30h-42z" fill="#fff8e9" opacity=".9"/>
+      <text x="22" y="94" fill="#fff8e9" font-family="Arial, sans-serif" font-size="16" font-weight="bold">EXPERIMENT AND LEARN</text>
+    </g>
+    <g transform="translate(720 354)">
+      <rect width="270" height="134" rx="9" fill="#e95d4f"/>
+      <rect width="270" height="134" rx="9" fill="url(#ribs)"/>
+      <path d="M22 21h48v34H22zM84 21h48v34H84zM146 21h48v34h-48z" fill="#fff8e9" opacity=".92"/>
+      <text x="24" y="108" fill="#fff8e9" font-family="Arial, sans-serif" font-size="19" font-weight="bold">SHIP YOUR KNOWLEDGE</text>
+    </g>
+  </g>
+  <g transform="translate(500 532)" filter="url(#shadow)">
+    <path d="M0 26q74-32 148 0v118q-74-31-148 0z" fill="#fff8e9"/>
+    <path d="M148 26q74-32 148 0v118q-74-31-148 0z" fill="#f0dfbd"/>
+    <path d="M148 27v118" stroke="#d1b98e" stroke-width="4"/>
+    <path d="M24 62q50-17 98 0M24 84q50-17 98 0M174 62q50-17 98 0M174 84q50-17 98 0" fill="none" stroke="#3f9a8f" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="84" y="680" fill="#fff8e9" font-family="Arial, sans-serif" font-size="18" font-weight="bold" letter-spacing="2">START CURIOUS. KEEP BUILDING.</text>
+  <path d="M1050 639h52m-20-20 20 20-20 20" fill="none" stroke="#ffd166" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

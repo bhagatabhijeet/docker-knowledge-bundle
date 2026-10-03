@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">Kinds of containers you will meet</title>
+  <desc id="d">Four cards: application containers like Docker that run one process; system containers like LXC that run a whole Linux userland; sandboxed and VM-backed containers like gVisor and Kata for stronger isolation; and Windows containers for Windows apps.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff735e"/><stop offset="1" stop-color="#f4a340"/></linearGradient>
+    <filter id="sh" x="-.1" y="-.1" width="1.2" height="1.3"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#123c52" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="#fff8e9"/>
+  <rect x="20" y="20" width="1160" height="720" rx="16" fill="url(#sky)"/>
+<text x="600" y="88" font-size="30" font-weight="700" text-anchor="middle" fill="#fff" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Four flavors of container</text>
+<g filter="url(#sh)"><rect x="80" y="120" width="510" height="245" rx="16" fill="#fff"/></g><rect x="80" y="120" width="14" height="245" rx="7" fill="#ff735e"/><text x="120" y="165" font-size="22" font-weight="700" text-anchor="start" fill="#1d2b36" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Application containers</text>
+<text x="120" y="192" font-size="14" font-weight="700" text-anchor="start" fill="#ff735e" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Docker, Podman, containerd</text>
+<text x="120" y="232" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>One program per box. Starts fast,</text>
+<text x="120" y="258" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>thrown away freely. The default</text>
+<text x="120" y="284" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>meaning of &quot;container&quot; today.</text>
+<g filter="url(#sh)"><rect x="610" y="120" width="510" height="245" rx="16" fill="#fff"/></g><rect x="610" y="120" width="14" height="245" rx="7" fill="#126c73"/><text x="650" y="165" font-size="22" font-weight="700" text-anchor="start" fill="#1d2b36" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>System containers</text>
+<text x="650" y="192" font-size="14" font-weight="700" text-anchor="start" fill="#126c73" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>LXC, LXD, Incus</text>
+<text x="650" y="232" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>A whole Linux userland, like a very</text>
+<text x="650" y="258" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>light VM. Long-lived, many</text>
+<text x="650" y="284" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>processes, feels like a server.</text>
+<g filter="url(#sh)"><rect x="80" y="390" width="510" height="245" rx="16" fill="#fff"/></g><rect x="80" y="390" width="14" height="245" rx="7" fill="#f4a340"/><text x="120" y="435" font-size="22" font-weight="700" text-anchor="start" fill="#1d2b36" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Sandboxed containers</text>
+<text x="120" y="462" font-size="14" font-weight="700" text-anchor="start" fill="#f4a340" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>gVisor, Kata Containers, Firecracker</text>
+<text x="120" y="502" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Extra walls between the container</text>
+<text x="120" y="528" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>and the kernel. For running code</text>
+<text x="120" y="554" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>you do not trust.</text>
+<g filter="url(#sh)"><rect x="610" y="390" width="510" height="245" rx="16" fill="#fff"/></g><rect x="610" y="390" width="14" height="245" rx="7" fill="#123c52"/><text x="650" y="435" font-size="22" font-weight="700" text-anchor="start" fill="#1d2b36" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Windows containers</text>
+<text x="650" y="462" font-size="14" font-weight="700" text-anchor="start" fill="#123c52" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Docker on Windows Server</text>
+<text x="650" y="502" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Same idea, Windows kernel. Needs</text>
+<text x="650" y="528" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Windows hosts and Hyper-V for</text>
+<text x="650" y="554" font-size="16" font-weight="400" text-anchor="start" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>the strongest isolation.</text>
+<rect x="20" y="698" width="1160" height="42" fill="#123c52" fill-opacity=".9"/><path d="M20 740a16 16 0 0 0 16 16h1128a16 16 0 0 0 16-16z" fill="#123c52" fill-opacity=".9"/><text x="600.0" y="725" font-size="15" font-weight="600" text-anchor="middle" fill="#7edbd0" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>This book is about application containers. The others are good to recognize by name.</text>
+</svg>

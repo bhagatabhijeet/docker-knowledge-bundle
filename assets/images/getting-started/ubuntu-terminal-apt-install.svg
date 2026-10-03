@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">Ubuntu terminal installing Docker Engine with apt</title>
+  <desc id="d">Illustration of a dark Ubuntu terminal running the apt install command for docker-ce and showing packages being set up, then docker run hello-world.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff735e"/><stop offset="1" stop-color="#f4a340"/></linearGradient>
+    <filter id="sh" x="-.1" y="-.1" width="1.2" height="1.3"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#123c52" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="#fff8e9"/>
+  <rect x="20" y="20" width="1160" height="720" rx="16" fill="url(#sky)"/>
+<g filter="url(#sh)"><rect x="120" y="80" width="960" height="600" rx="12" fill="#123c52"/><path d="M120 92a12 12 0 0 1 12-12h936a12 12 0 0 1 12 12v30H120z" fill="#0d2a3b"/><text x="138" y="107" font-size="15" font-weight="600" fill="#dbe7ee" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>bhaga@ubuntu: ~</text><text x="990" y="107" text-anchor="middle" font-size="14" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>—</text><text x="1022" y="107" text-anchor="middle" font-size="14" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>▢</text><text x="1054" y="107" text-anchor="middle" font-size="14" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>✕</text></g><text x="150" y="160" font-size="16" font-weight="700" text-anchor="start" fill="#ff735e" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>$ </text>
+<text x="172" y="160" font-size="15" font-weight="400" text-anchor="start" fill="#7edbd0" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>sudo apt install docker-ce docker-ce-cli containerd.io \</text>
+<text x="150" y="189" font-size="15" font-weight="400" text-anchor="start" fill="#7edbd0" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>       docker-buildx-plugin docker-compose-plugin</text>
+<text x="150" y="218" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Reading package lists... Done</text>
+<text x="150" y="247" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Building dependency tree... Done</text>
+<text x="150" y="276" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>The following NEW packages will be installed:</text>
+<text x="150" y="305" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>  containerd.io docker-buildx-plugin docker-ce docker-ce-cli docker-compose-plugin</text>
+<text x="150" y="334" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Need to get 120 MB of archives.</text>
+<text x="150" y="363" font-size="15" font-weight="700" text-anchor="start" fill="#ffd166" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Do you want to continue? [Y/n] y</text>
+<text x="150" y="392" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Get:1 https://download.docker.com/linux/ubuntu noble/stable amd64 containerd.io …</text>
+<text x="150" y="421" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Setting up containerd.io …</text>
+<text x="150" y="450" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Setting up docker-ce …</text>
+<text x="150" y="479" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → …</text>
+<text x="150" y="508" font-size="16" font-weight="700" text-anchor="start" fill="#ff735e" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>$ </text>
+<text x="172" y="508" font-size="15" font-weight="400" text-anchor="start" fill="#7edbd0" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>sudo docker run hello-world</text>
+<text x="150" y="537" font-size="15" font-weight="700" text-anchor="start" fill="#ffd166" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>Hello from Docker!</text>
+<text x="150" y="566" font-size="15" font-weight="400" text-anchor="start" fill="#dbe7ee" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>This message shows that your installation appears to be working correctly.</text>
+<text x="150" y="595" font-size="16" font-weight="700" text-anchor="start" fill="#ff735e" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>$ </text>
+<text x="172" y="595" font-size="15" font-weight="400" text-anchor="start" fill="#7edbd0" font-family='Ubuntu Mono, Cascadia Mono, Menlo, Consolas, monospace'>▌</text>
+<rect x="20" y="698" width="1160" height="42" fill="#123c52" fill-opacity=".9"/><path d="M20 740a16 16 0 0 0 16 16h1128a16 16 0 0 0 16-16z" fill="#123c52" fill-opacity=".9"/><text x="600.0" y="725" font-size="15" font-weight="600" text-anchor="middle" fill="#7edbd0" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Illustration · version strings and download sizes will differ</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="t d" font-family="Ubuntu, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="t">Four eras of software deployment</title>
+  <desc id="d">A timeline of four eras. Dedicated servers, 1960s to 1990s: one app per machine, set up by hand. Virtual machines, 1990s to 2000s: many pretend computers per server. The cloud, 2000s to 2010s: rent VMs on demand. Containers, 2010s to now: small sealed packages that run the same everywhere. Each era lists the headache it fixed and the headache it left behind.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff735e"/><stop offset="1" stop-color="#f4a340"/></linearGradient>
+    <filter id="sh" x="-.1" y="-.1" width="1.2" height="1.3"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#123c52" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1200" height="640" rx="24" fill="#fff8e9"/>
+  <rect x="20" y="20" width="1160" height="600" rx="16" fill="url(#sky)"/>
+  <text x="600" y="78" font-size="30" font-weight="700" text-anchor="middle" fill="#fff">Every era fixed the last one's headache, then made a new one</text>
+
+  <g filter="url(#sh)"><rect x="60" y="110" width="1080" height="470" rx="18" fill="#fff"/></g>
+
+  <!-- timeline rail -->
+  <path d="M120 200H1080" stroke="#e5dccb" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1060 186l24 14-24 14z" fill="#e5dccb"/>
+
+  <!-- Era 1: dedicated servers -->
+  <g>
+    <circle cx="195" cy="200" r="16" fill="#ff735e" stroke="#fff" stroke-width="4"/>
+    <text x="195" y="160" font-size="15" font-weight="700" text-anchor="middle" fill="#ff735e">1960s to 1990s</text>
+    <!-- icon: a lone server tower -->
+    <rect x="170" y="240" width="50" height="70" rx="6" fill="#dbe7ee" stroke="#123c52" stroke-width="3"/>
+    <rect x="178" y="250" width="34" height="8" rx="2" fill="#123c52"/>
+    <rect x="178" y="264" width="34" height="8" rx="2" fill="#123c52"/>
+    <circle cx="195" cy="294" r="4" fill="#ff735e"/>
+    <text x="195" y="340" font-size="18" font-weight="700" text-anchor="middle" fill="#1d2b36">Dedicated servers</text>
+    <text x="195" y="364" font-size="13" text-anchor="middle" fill="#5b6b78">One app per physical machine,</text>
+    <text x="195" y="382" font-size="13" text-anchor="middle" fill="#5b6b78">set up by hand.</text>
+    <rect x="75" y="410" width="240" height="140" rx="12" fill="#fff8e9" stroke="#e5dccb" stroke-width="2"/>
+    <text x="195" y="436" font-size="12" font-weight="700" text-anchor="middle" fill="#126c73">FIXED</text>
+    <text x="195" y="454" font-size="12" text-anchor="middle" fill="#1d2b36">Apps stop stepping on each other</text>
+    <text x="195" y="486" font-size="12" font-weight="700" text-anchor="middle" fill="#ff735e">LEFT BEHIND</text>
+    <text x="195" y="504" font-size="12" text-anchor="middle" fill="#1d2b36">Hardware mostly idle</text>
+    <text x="195" y="522" font-size="12" text-anchor="middle" fill="#1d2b36">"Works on my machine"</text>
+  </g>
+
+  <!-- Era 2: virtual machines -->
+  <g>
+    <circle cx="465" cy="200" r="16" fill="#f4a340" stroke="#fff" stroke-width="4"/>
+    <text x="465" y="160" font-size="15" font-weight="700" text-anchor="middle" fill="#f4a340">1990s to 2000s</text>
+    <!-- icon: one tower, three screens inside -->
+    <rect x="425" y="240" width="80" height="70" rx="6" fill="#dbe7ee" stroke="#123c52" stroke-width="3"/>
+    <rect x="433" y="250" width="18" height="22" rx="3" fill="#fff" stroke="#123c52" stroke-width="2"/>
+    <rect x="456" y="250" width="18" height="22" rx="3" fill="#fff" stroke="#123c52" stroke-width="2"/>
+    <rect x="479" y="250" width="18" height="22" rx="3" fill="#fff" stroke="#123c52" stroke-width="2"/>
+    <text x="465" y="296" font-size="10" font-weight="700" text-anchor="middle" fill="#123c52">OS · OS · OS</text>
+    <text x="465" y="340" font-size="18" font-weight="700" text-anchor="middle" fill="#1d2b36">Virtual machines</text>
+    <text x="465" y="364" font-size="13" text-anchor="middle" fill="#5b6b78">Several pretend computers</text>
+    <text x="465" y="382" font-size="13" text-anchor="middle" fill="#5b6b78">on one real one.</text>
+    <rect x="345" y="410" width="240" height="140" rx="12" fill="#fff8e9" stroke="#e5dccb" stroke-width="2"/>
+    <text x="465" y="436" font-size="12" font-weight="700" text-anchor="middle" fill="#126c73">FIXED</text>
+    <text x="465" y="454" font-size="12" text-anchor="middle" fill="#1d2b36">Hardware finally busy</text>
+    <text x="465" y="470" font-size="12" text-anchor="middle" fill="#1d2b36">Clone a VM: matching environments</text>
+    <text x="465" y="500" font-size="12" font-weight="700" text-anchor="middle" fill="#ff735e">LEFT BEHIND</text>
+    <text x="465" y="518" font-size="12" text-anchor="middle" fill="#1d2b36">Heavy, slow to boot, drifts over time</text>
+  </g>
+
+  <!-- Era 3: cloud -->
+  <g>
+    <circle cx="735" cy="200" r="16" fill="#126c73" stroke="#fff" stroke-width="4"/>
+    <text x="735" y="160" font-size="15" font-weight="700" text-anchor="middle" fill="#126c73">2000s to 2010s</text>
+    <!-- icon: cloud with a server inside -->
+    <path d="M700 300a22 22 0 0 1 4-43 30 30 0 0 1 57-8 24 24 0 0 1 12 51z" fill="#dbe7ee" stroke="#123c52" stroke-width="3"/>
+    <rect x="722" y="268" width="26" height="24" rx="3" fill="#fff" stroke="#123c52" stroke-width="2"/>
+    <rect x="727" y="273" width="16" height="4" fill="#123c52"/>
+    <rect x="727" y="281" width="16" height="4" fill="#123c52"/>
+    <text x="735" y="340" font-size="18" font-weight="700" text-anchor="middle" fill="#1d2b36">The cloud</text>
+    <text x="735" y="364" font-size="13" text-anchor="middle" fill="#5b6b78">Rent VMs by the hour,</text>
+    <text x="735" y="382" font-size="13" text-anchor="middle" fill="#5b6b78">as many as you need.</text>
+    <rect x="615" y="410" width="240" height="140" rx="12" fill="#fff8e9" stroke="#e5dccb" stroke-width="2"/>
+    <text x="735" y="436" font-size="12" font-weight="700" text-anchor="middle" fill="#126c73">FIXED</text>
+    <text x="735" y="454" font-size="12" text-anchor="middle" fill="#1d2b36">Scale up and down on demand</text>
+    <text x="735" y="470" font-size="12" text-anchor="middle" fill="#1d2b36">No building full of servers to own</text>
+    <text x="735" y="500" font-size="12" font-weight="700" text-anchor="middle" fill="#ff735e">LEFT BEHIND</text>
+    <text x="735" y="518" font-size="12" text-anchor="middle" fill="#1d2b36">Still VMs underneath; deploys</text>
+    <text x="735" y="534" font-size="12" text-anchor="middle" fill="#1d2b36">still vary from place to place</text>
+  </g>
+
+  <!-- Era 4: containers -->
+  <g>
+    <circle cx="1005" cy="200" r="16" fill="#7edbd0" stroke="#fff" stroke-width="4"/>
+    <text x="1005" y="160" font-size="15" font-weight="700" text-anchor="middle" fill="#126c73">2010s to now</text>
+    <!-- icon: tower with three small boxes, one OS -->
+    <rect x="965" y="240" width="80" height="70" rx="6" fill="#dbe7ee" stroke="#123c52" stroke-width="3"/>
+    <rect x="973" y="250" width="18" height="18" rx="3" fill="#ffd166" stroke="#123c52" stroke-width="2"/>
+    <rect x="996" y="250" width="18" height="18" rx="3" fill="#ffd166" stroke="#123c52" stroke-width="2"/>
+    <rect x="1019" y="250" width="18" height="18" rx="3" fill="#ffd166" stroke="#123c52" stroke-width="2"/>
+    <rect x="973" y="276" width="64" height="12" rx="3" fill="#126c73"/>
+    <text x="1005" y="286" font-size="8" font-weight="700" text-anchor="middle" fill="#fff">SHARED KERNEL</text>
+    <text x="1005" y="340" font-size="18" font-weight="700" text-anchor="middle" fill="#1d2b36">Containers</text>
+    <text x="1005" y="364" font-size="13" text-anchor="middle" fill="#5b6b78">Small sealed packages that</text>
+    <text x="1005" y="382" font-size="13" text-anchor="middle" fill="#5b6b78">run the same everywhere.</text>
+    <rect x="885" y="410" width="240" height="140" rx="12" fill="#fff8e9" stroke="#e5dccb" stroke-width="2"/>
+    <text x="1005" y="436" font-size="12" font-weight="700" text-anchor="middle" fill="#126c73">FIXED</text>
+    <text x="1005" y="454" font-size="12" text-anchor="middle" fill="#1d2b36">No OS inside: tiny and instant</text>
+    <text x="1005" y="470" font-size="12" text-anchor="middle" fill="#1d2b36">Same image everywhere, no drift</text>
+    <text x="1005" y="500" font-size="12" font-weight="700" text-anchor="middle" fill="#ff735e">LEFT BEHIND</text>
+    <text x="1005" y="518" font-size="12" text-anchor="middle" fill="#1d2b36">Configuration still needs care</text>
+  </g>
+</svg>

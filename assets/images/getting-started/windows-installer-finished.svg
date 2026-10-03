@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">Docker Desktop installer on Windows, installation succeeded</title>
+  <desc id="d">Illustration of the final page of the Docker Desktop installer with a green check and a Close button.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff735e"/><stop offset="1" stop-color="#f4a340"/></linearGradient>
+    <filter id="sh" x="-.1" y="-.1" width="1.2" height="1.3"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#123c52" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="24" fill="#fff8e9"/>
+  <rect x="20" y="20" width="1160" height="720" rx="16" fill="url(#sky)"/>
+<g filter="url(#sh)"><rect x="150" y="90" width="900" height="560" rx="12" fill="#ffffff"/><path d="M150 102a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v30H150z" fill="#f3efe6"/><text x="168" y="117" font-size="15" font-weight="600" fill="#1d2b36" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Docker Desktop Installer</text><text x="960" y="117" text-anchor="middle" font-size="14" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>—</text><text x="992" y="117" text-anchor="middle" font-size="14" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>▢</text><text x="1024" y="117" text-anchor="middle" font-size="14" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>✕</text></g><circle cx="600" cy="300" r="70" fill="#7edbd0"/><path d="M565 300l25 25 48-55" fill="none" stroke="#123c52" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><text x="600" y="420" font-size="30" font-weight="700" text-anchor="middle" fill="#1d2b36" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Installation succeeded</text>
+<text x="600" y="456" font-size="16" font-weight="400" text-anchor="middle" fill="#5b6b78" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Docker Desktop has been installed. Close this window and launch it from the Start menu.</text>
+<rect x="545" y="540" width="110" height="40" rx="8" fill="#126c73" stroke="#126c73" stroke-width="2"/><text x="600.0" y="566" font-size="15" font-weight="600" text-anchor="middle" fill="#fff" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Close</text>
+<rect x="20" y="698" width="1160" height="42" fill="#123c52" fill-opacity=".9"/><path d="M20 740a16 16 0 0 0 16 16h1128a16 16 0 0 0 16-16z" fill="#123c52" fill-opacity=".9"/><text x="600.0" y="725" font-size="15" font-weight="600" text-anchor="middle" fill="#7edbd0" font-family='Ubuntu, Segoe UI, Helvetica, Arial, sans-serif'>Illustration · if Windows asks to restart here, say yes before continuing</text>
+</svg>
